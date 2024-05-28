@@ -1,0 +1,12 @@
+<div class="container p-3">
+  <h2>Add a new List</h2>
+
+    <%= simple_form_for(@list) do |f| %>
+      <%= f.input :name %>
+      <%= f.submit %>
+      <% end %>
+
+<br>
+
+<%= link_to "back to List", lists_path(@list) %>
+</div>

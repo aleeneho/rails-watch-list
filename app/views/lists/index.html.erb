@@ -1,0 +1,60 @@
+<div class="navbar navbar-expand-sm navbar-light navbar-lewagon">
+  <div class="container-fluid">
+    <%= link_to "#", class: "navbar-brand" do %>
+      <%= image_tag "https://static.vecteezy.com/system/resources/previews/018/888/377/original/cartoon-popcorn-icon-png.png"%>
+    <% end %>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+        </button>
+
+    <div class="collapse navbar-collapse" id="navbarSupportedContent">
+      <ul class="navbar-nav me-auto">
+        <%# if user_signed_in? %>
+          <li class="nav-item active">
+            <%= link_to "My List", "#", class: "nav-link" %>
+          </li>
+          <li class="nav-item">
+            <%= link_to "New List", "#", class: "nav-link" %>
+          </li>
+      </ul>
+    </div>
+  </div>
+</div>
+
+<div class="card-category" style="background-image: url(https://images.prestigeonline.com/wp-content/uploads/sites/5/2022/05/06150135/Hero-image-4.jpg)">
+  Save Any Kind of Movie
+</div>
+
+<h3>My List</h3>
+
+<div class="card p-3">
+    <div class="card-wrapper" style="background-image: url(https://static.guim.co.uk/sys-images/Guardian/Pix/pictures/2014/11/20/1416480170375/movie-poster-sale-Bette-D-001.jpg)">
+      Classic
+    </div>
+
+    <div class="card-wrapper" style="background-image: url(https://thumbs.dreamstime.com/z/whiskey-vintage-poster-design-template-retro-drink-creative-promotional-ad-concept-vector-flyer-banner-background-layout-no-47630427.jpg)">
+      Old School
+    </div>
+
+    <div class="card-wrapper" style="background-image: url(https://images.desenio.com/zoom/18105-8paintedlondon50x70.jpg)">
+      Day Dream
+    </div>
+</div>
+
+
+
+<%#
+<div class="container p-3">
+  <h2>All Lists</h2>
+
+  <ul>
+    <% @lists.each do |list| %>
+      <%# <li>
+          <%= link_to list.name, list_path(list) %>
+          <%# <%= link_to "+ Add a Bookmark", new_list_bookmark_path %>
+      <%# </li>
+      <% end %>
+  <%# </ul>
+
+  <%= link_to "+ Add a New List", new_list_path %>
+<%# </div>  %>
