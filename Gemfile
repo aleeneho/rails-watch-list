@@ -1,5 +1,7 @@
 source "https://rubygems.org"
 
+gem "cloudinary"
+
 gem "bootstrap", "~> 5.2"
 
 gem "autoprefixer-rails"
