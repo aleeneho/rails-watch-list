@@ -1,6 +1,6 @@
 source "https://rubygems.org"
 
-gem "cloudinary"
+gem "cloudinary", "2.0.2"
 
 gem "bootstrap", "~> 5.2"
 
